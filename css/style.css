@@ -1,9 +1,45 @@
 :root {
     --montserrat: 'Montserrat', sans-serif;
     --orbitron: 'Orbitron', sans-serif;
-    --light-purple : #610E52;
-    --dark-purple : #994AB5;
-    --blue : #B1EBE8;
-    --green : #B4FF8C;
+    --orange : #fb5444;
+    --blue : #44bbd3;
+    --yellow : #fbfb04;
 }
 
+/* Fonts */
+.montserrat{ font-family: var(--montserrat); }
+.orbitron{ font-family: var(--orbitron); }
+
+/* Text Colors */
+.torange{ color: var(--orange); }
+.tblue{ color: var(--blue); }
+.tyellow{ color: var(--yellow); }
+
+/* Background colors */
+.borange{ background-color: var(--orange); }
+.bblue{ background-color: var(--blue); }
+.byellow{ background-color: var(--yellow); }
+
+/* Parameters for the whole page */
+body{
+    font-family: var(--montserrat);
+}
+
+/* NavBar */
+.logo{
+    max-width: 50px;
+}
+
+/* Page Header */
+.rageons{
+    background-image: url(../img/image.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    margin: 0;
+    padding: 300px;
+}
