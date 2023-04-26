@@ -26,8 +26,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron:wght@700&display=swap" rel="stylesheet">
 
         <!-- Browser tab -->
-        <link rel="icon" href="img/pigeon.png">
-        <title>Rageons</title>
+        <link rel="icon" href="img/splash.png">
+        <title>Rageon</title>
     </head>
 
     <body>
@@ -36,7 +36,6 @@
       <nav id="navbar">
         <div class="nav-wrapper bblue">
           <ul id="nav-mobile" class="center-align hide-on-med-and-down">
-            <li><a href="#!"><img class="logo" src="img/pigeon.png" alt=""></a></li>
             <li><a href="#project">Our Project</a></li>
             <li><a href="#pitch">Pitch</a></li>
             <li><a href="#gameplay">Gameplay</a></li>
@@ -44,6 +43,14 @@
           </ul>
         </div>
       </nav>
+
+      <!-- NavBar for Mobiles -->
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#project">Our Project</a></li>
+        <li><a href="#pitch">Pitch</a></li>
+        <li><a href="#gameplay">Gameplay</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
 
       <!-- Fixed Button to Download the Game -->
       <div class="fixed-action-btn toolbar">
@@ -55,17 +62,9 @@
         </ul>
       </div>
 
-      <!-- NavBar for Mobiles -->
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="#project">Our Project</a></li>
-        <li><a href="#pitch">Pitch</a></li>
-        <li><a href="#gameplay">Gameplay</a></li>
-        <li><a href="#newsletter">Newsletter</a></li>
-      </ul>
-
       <!-- Page Title -->
       <div class="rageons">
-        <h1 class="orbitron center-align white-text animate__animated animate__zoomIn">RAGEONS</h1>
+        <h1 class="center-align white-text animate__animated animate__zoomIn"><img class="size" src="img/logo.png" alt=""></h1>
       </div>
 
       <!-- All the content will have a margin of 20% on each side of the screen -->
@@ -73,17 +72,17 @@
 
         <!-- Our Project -->
           <h2 id="project" class="center-align">Our Project</h2>
-          <div class="row">
+          <div class="row valign-wrapper">
             <div class="col l6">
-              <div class="card">
+              <div class="card blue-neon">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/image.png">
+                  <img class="activator" src="img/chara.png">
                 </div>
               </div>
             </div>
             <div class="col l6">
-              <div class="card-panel black">
-                <span class="white-text">
+              <div class="card-panel white blue-neon">
+                <span class="torange">
                   We are 9 students from Gaming Campus. To finish our first and for some our second year in school, we were given a project: Create a Vertical Shooter in python based on the theme, futuristic, flying and birds. Three weeks and three types of student, tech, buisness and art but only one goal: create the best game possible.
                 </span>
               </div>
@@ -92,18 +91,18 @@
 
           <!-- Pitch -->
           <h2 id="pitch" class="center-align">Pitch</h2>
-          <div class="row">
+          <div class="row valign-wrapper">
             <div class="col l6">
-              <div class="card-panel black">
-                <span class="white-text">
+              <div class="card-panel white blue-neon">
+                <span class="torange">
                   In year 2030, you are John and today is going to be a good day ! You put on your best outfit, take your overboard and leave the house to go to school. However something happens and your hunt start ! A pigeon just shit on your face and you want revenge. You will soon find out that this pigeon is the last one of his kind and it's the head of the city's pet. In order to finally catch and kill that stupid pigeon you will have to overcome an army of drones that were sent on you to stop you, but you don't care, you are going to succeed no matter what !
                 </span>
               </div>
             </div>
             <div class="col l6">
-              <div class="card">
+              <div class="card blue-neon">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/image.png">
+                  <img class="activator" src="img/ennemi.png">
                 </div>
               </div>
             </div>
@@ -111,28 +110,30 @@
 
           <!-- Gameplay -->
           <h2 id="gameplay" class="center-align">Gameplay</h2>
-          <ul class="collapsible">
+          <ul class="collapsible blue-neon">
             <li>
-              <div class="collapsible-header"><i class="material-icons">healing</i>Attacks</div>
-              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              <div class="collapsible-header torange"><i class="material-icons">healing</i>Attacks</div>
+              <div class="collapsible-body white-text"><span>If you encounter with an ennemy, you have to make a choice : flee or fight ?
+                You can just dodge their attacks and the game will continue or you can enter a fight. If you choose to fight, you have two types of attacks that you can use, either swing your overboard in their face, either use the power of your glove to attack them in a distance.
+              </span></div>
             </li>
             <li>
-              <div class="collapsible-header"><i class="material-icons">whatshot</i>Enemis</div>
-              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              <div class="collapsible-header torange"><i class="material-icons">whatshot</i>Ennemis</div>
+              <div class="collapsible-body white-text"><span>The drones of the city's head won't give you any mercy. The army is composed of four types of ennemies each with their own capacities.</span></div>
             </li>
             <li>
-              <div class="collapsible-header"><i class="material-icons">widgets</i>Platforms</div>
-              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              <div class="collapsible-header torange"><i class="material-icons">widgets</i>Platforms</div>
+              <div class="collapsible-body white-text"><span>Beware of the platforms, they are everywhere ! If you bump into one of them, your speed decreases and you might loose because the game won't wait for you...</span></div>
             </li>
             <li>
-              <div class="collapsible-header"><i class="material-icons">power</i>Speed</div>
-              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              <div class="collapsible-header torange"><i class="material-icons">power</i>Speed</div>
+              <div class="collapsible-body white-text"><span>The main aspect of Rageon and what makes it so hard is that : the faster you go, the faster the game goes !</span></div>
             </li>
           </ul>
 
           <!-- Newsletter -->
           <h2 id="newsletter" class="center-align">Newsletter</h2>
-          <div class="card-panel white center-align orange-neon">
+          <div class="card-panel white center-align blue-neon">
             <span class="torange">
             Stay up to date with the release and updates of our game !
             <div class="input-field col s12 m6 offset-m3">
@@ -152,8 +153,8 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h3 class="white-text orbitron">RAGEONS</h5>
-                <p class="grey-text text-lighten-4">A platformer where you cannot finish a level without rage against a pigeons !</p>
+                <h3 class="white-text orbitron">RAGEON</h5>
+                <p class="grey-text text-lighten-4">A platformer where you cannot finish a level without rage against a pigeon !</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h3 class="white-text">Contact us</h5>
