@@ -24,6 +24,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
     font-family: var(--montserrat);
     background-color: #aec9cf;
@@ -40,11 +41,6 @@ nav{
     transition: top 0.5s;
 }
 
-.logo{
-    max-width: 50px;
-}
-
-
 /* Fixed Action Button */
 .btn-floating:hover{
     background-color: var(--orange);
@@ -59,22 +55,15 @@ nav{
     background-position: center;
 }
 
-h1{
-    font-size: 1px;
-}
-
 .size{
     width: 400px;
     margin-top: 200px;
 }
 
+/* Other Titles */
 h2{
     padding: 2%;
     filter: drop-shadow(0px 0px 5px var(--blue));
     color: #ffffff;
     font-family: var(--orbitron);
-}
-
-.marginb{
-    padding-top: 200000px;
 }

@@ -168,7 +168,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container center-align">
-            © 2023 Rageons
+            © 2023 Rageon
             </div>
           </div>
         </footer>
